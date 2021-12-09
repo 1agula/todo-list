@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="yyn" />
+    <meta name="description" content="Todo List for myself" />
+    <!-- <base target="_self" /> -->
+    <!-- <base target="_blank" /> -->
+    <title>Todo List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Todo List</h1>
+    </header>
+    <form action="">
+      <input type="text" />
+      <input type="number" placeholder="M" min="1" max="12" required />
+      <input type="number" placeholder="D" min="1" max="31" required />
+      <button>Add Into List</button>
+    </form>
+    <br />
+    <br />
+    <div class="sort">
+      <button>Sort By Time</button>
+    </div>
+    <section></section>
+  </body>
+  <script src="./app.js"></script>
+</html>
